@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package>
+    <name>Medma_Copyoptions</name>
+    <version>0.1.5</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A very simple but useful extension that allows admin to copy custom options from any product to number of products. So if you need to add some custom options to large number of products, you don't need to edit each of them now, just edit one and copy the custom options to other multiple products.</summary>
+    <description>A very useful and must required extension that allows admin to copy/delete custom options from any product to number of products. So if you need to add some custom options to large number of products, you don't need to edit each of them now, just edit one and copy the custom options to other multiple products. This extension also allows deleting custom options from selected products at once.&#xD;
+&#xD;
+Features:&#xD;
+1. No core file changed.&#xD;
+2. Copy selected Custom Options to multiple products on one click. &#xD;
+3. Can delete only selected custom options from multiple products at one click.&#xD;
+&#xD;
+Supported Features:&#xD;
+1. Works on Magento 1.6 and above&#xD;
+&#xD;
+Installation:&#xD;
+1. Install Extension Using Magento Connect&#xD;
+2. Log out from admin and log in admin again.&#xD;
+To Copy Selected Custom Options  To Multiple Products:&#xD;
+1. Navigation to Catalog -&gt; Custom Options-&gt;Copy Custom Options to Products&#xD;
+Select Custom Options From Products from which you want to copy and select via check-box to which product you want to copy custom options.&#xD;
+2. Click on Copy Custom Options to selected Products.&#xD;
+To Delete Selected Custom Options  From Multiple Products:&#xD;
+1. Navigation to Catalog -&gt; Custom Options-&gt;Delete Custom Options from Products&#xD;
+Select Custom Options From Products from which you want to delete from the products.&#xD;
+2. Click on Delete Selected Custom Options.&#xD;
+&#xD;
+Contact Us&#xD;
+For any assistance, please emails us at magento.support@medma.in&#xD;
+&#xD;
+Give us your valuable feed-backs to improve this extension, we will surely consider your feedback in the next release version of the extension.</description>
+    <notes>A very simple but useful extension that allows admin to copy custom options from any product to number of products. So if you need to add some custom options to large number of products, you don't need to edit each of them now, just edit one and copy the custom options to other multiple products.</notes>
+    <authors><author><name>Medma_Infomatix</name><user>Medma_Infomatix</user><email>gaurav@medma.in</email></author></authors>
+    <date>2014-01-31</date>
+    <time>09:14:04</time>
+    <contents><target name="magecommunity"><dir name="Medma"><dir name="Copyoptions"><dir name="Block"><dir name="Adminhtml"><file name="Copyoptions.php" hash="fc49a76ea4c0cffb6704a845b41d2b77"/></dir></dir><dir name="Model"><file name="Authenticate.php" hash="7f5ab9025e7a2c1a19a184d61f57fde0"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="6bdbce69718b73bcf6aae15039be5907"/></dir></dir><dir name="etc"><file name="config.xml" hash="7cb2461315de7e2a5fb43b1642903824"/></dir><dir name="sql"><dir name="copyoptions_setup"><file name="mysql4-install-0.1.0.php" hash="a1ef199965119bc152e6e0a556076f2f"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Medma_Copyoptions.xml" hash="5c87bd21b62c85258f25aa909419cfa8"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="copyoptions.xml" hash="133ad245f287e61c0c45779f94fdb62c"/></dir><dir name="template"><dir name="copyoptions"><file name="copyproduct.phtml" hash="8e1f7eb6ae0ff69878901f91f9f30cb7"/><file name="deleteproduct.phtml" hash="7f9393511d9b27c5f8c94d9c6a79b196"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="copyoptions"><dir name="css"><file name="customoptions.css" hash="88f9f9bb20406cdde852ad90249b4680"/><file name="jquery-ui-1.8.12.custom.css" hash="f3ccac687d0596fdd2b49c095b77e3db"/><file name="jquery.checkboxtree.css" hash="0f04100b865b0cad017bf5f2473ed6c0"/></dir><dir name="images"><file name="ui-bg_flat_0_aaaaaa_40x100.png" hash="2a44fbdb7360c60122bcf6dcef0387d8"/><file name="ui-bg_flat_75_ffffff_40x100.png" hash="8692e6efddf882acbff144c38ea7dfdf"/><file name="ui-bg_glass_55_fbf9ee_1x400.png" hash="f8f4558e0b92ff2cd6136781533902ec"/><file name="ui-bg_glass_65_ffffff_1x400.png" hash="e5a8f32e28fd5c27bf0fed33c8a8b9b5"/><file name="ui-bg_glass_75_dadada_1x400.png" hash="c12c6510dad3ebfa64c8a30e959a2469"/><file name="ui-bg_glass_75_e6e6e6_1x400.png" hash="f4254356c2a8c9a383205ef2c4de22c4"/><file name="ui-bg_glass_95_fef1ec_1x400.png" hash="5a3be2d8fff8324d59aec3df7b0a0c83"/><file name="ui-bg_highlight-soft_75_cccccc_1x100.png" hash="72c593d16e998952cd8d798fee33c6f3"/><file name="ui-icons_222222_256x240.png" hash="ebe6b6902a408fbf9cac6379a1477525"/><file name="ui-icons_2e83ff_256x240.png" hash="2b99a5e48d3c3957d03027d36a25e8bb"/><file name="ui-icons_454545_256x240.png" hash="119dd0c2e94ad689de873ef39fd43e6e"/><file name="ui-icons_888888_256x240.png" hash="9c46d7cab43e22a14bad26d2d4806d80"/><file name="ui-icons_cd0a0a_256x240.png" hash="3e450c2a2c66328d9498e7001ad7197c"/></dir><dir name="js"><file name="customoptions.js" hash="7cb122ac9b82ee56dffecd8a5d47807a"/><file name="jquery-1.4.4.js" hash="30c7c15a666b9f75a9f58478608fc7e4"/><file name="jquery-ui-1.8.12.custom.min.js" hash="8bd7da990811d5b776243a81cac3d848"/><file name="jquery.checkboxtree.js" hash="0dcb00d6af53617f9d9e0f69028228af"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
