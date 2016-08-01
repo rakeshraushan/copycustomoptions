@@ -1,10 +1,10 @@
 {
     "name": "vendor/php-project1",
-    "description": "Description of project PhpProject1.",
+    "description": "Copy custom options of magento products",
     "authors": [
         {
-            "name": "Anand",
-            "email": "your@email.here"
+            "name": "Rakesh",
+            "email": "rakeshraushan391@gmail.com"
         }
     ],
     "require": {}
